@@ -25,7 +25,7 @@ public class SwapNumber {
 		 * System.out.println("After Swapping a="+a+"   b="+b);
 		 */
 
-		//logic 3 
+		//logic 3  
 		// non zero value
 		/*System.out.println("Before Swapping a="+a+"   b="+b); 
 		 * a=a*b; 
