@@ -13,7 +13,7 @@ public class ReverseString {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String to reverse.");
 		String str = sc.nextLine(), rev="";
-		
+		//logic 1
 		/*
 		 * int len=str.length(); 
 		 * for (int i=len-1; i>=0;i--) 
@@ -22,6 +22,7 @@ public class ReverseString {
 		 * }
 		 */
 		
+		//logic 2
 		/*
 		 * char a[]= str.toCharArray(); 
 		 * int len= str.length(); 
@@ -30,6 +31,8 @@ public class ReverseString {
 		 * rev=rev+a[i];
 		 * }
 		 */
+		
+		//logic 3
 		StringBuffer sb = new StringBuffer(str);
 		 StringBuffer rev2 =sb.reverse();
 		System.out.println("Reversed String is "+rev2);
