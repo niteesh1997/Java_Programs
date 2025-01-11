@@ -43,4 +43,15 @@ Operator is a symbol which perform an operation
 5) Assignment Operator					= += -= *= /= %=
 6) Conditional Operator				?:
 
-Logical 
+----------------------------------------------------------------------------------------------------------------------
+Conditional Statement
+1) if
+2) if-else
+3) nested if-else
+4)Switch case
+----------------------------------------------------------------------------------------------------------------------
+Looping statement
+
+Initilisation -->condition--> Incrementation
+1) while
+2) do- while
