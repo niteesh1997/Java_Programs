@@ -1,0 +1,54 @@
+Xpath- XML Path
+works on DOM (document object model)
+
+
+Absolute Xpath- /html/body/header/ - full xpath  this is not prefered because any change in UI may 
+				impact the loacation which directly impact the xpath
+
+Relative Xpath- //id[@class='xxx'] - this is partial
+
+Methods of crating Relative Xpath
+1) Dev tools
+2) Manually - //tag[@attribute='value']						- single attribute
+			  //tag[@attribute='value'][@attribute='value']	- 2 attribute
+			  //tag[@attribute='value' and @attribute='value']	
+			  //tag[@attribute='value' or @attribute='value']
+			  //tag[text()='value']							- inner text
+			  //tag[contains(@attribute,'partialValue')]	-contains()
+			  //tag[starts-with(@attribute,'partialValue')]	-starts-with
+			  
+			  dynamic attribute value
+			  use contains(), text(), starts-with() methods
+			  
+			  chained xpath combo of relative and abs
+			  //tag[@attribute='value']/a/img
+			  
+	Xpath Axes
+	
+										1-ancestor::
+										2- parent::
+			4-preciding-sibling::		3- self::         	5-Following-sibling::
+										6-Child::
+										7-Descendant::
+										
+										
+			Child to parent- //tag[@attributr='value']/parent::elementName
+							 //tag[@attributr='value']/parent::*
+							 //tag[@attributr='value']/..
+							 
+		 	parent to child- //tag[@attributr='value']/child::elementName
+							 //tag[@attributr='value']/elementName	if only child
+							 //tag[@attributr='value']/*
+							 
+			Grandchild		//tag/div/element
+							//tag[@attribute='value']/descendnt::element
+							//tag[@attribute='value']/ancestor::*
+										
+			Ancestor		//tag[@attribute='value']/ancestor::element						
+							//tag[@attribute='value']/ancestor::*
+							
+			Following		//tag[@attribute='value']/following::element
+							//tag[@attribute='value']/following::element				
+							
+			Preceding		//tag[@attribute='value']/preceding::element
+							//tag[@attribute='value']/preceding::*

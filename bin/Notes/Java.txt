@@ -1,0 +1,57 @@
+Variable and Data types
+------------------------------
+Variable is a container that holds data or to represent data we need variable
+
+data type defines what type of data stored in variable
+
+data types in java- 
+---------------------------
+Primitive Datatype
+--------------------
+byte, short, int, long---->number without decimal
+float, double------------->decimal number
+char----------------------> single character
+boolean-------------------> true/False
+
+Non Primitive
+-------------------
+String, ArrayList, HashSet, etc.....
+
+
+DataType			Size			 Description
+------------------------------------------------------------
+byte				1 byte			whole number -128 to 127
+short				2 byte			whole number -32,768 to 32,768
+int					4 byte			whole number -2,147,483,648 to 2,147,483,647
+long				8 byte			whole number -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+float				4 byte			decimal values upto 7 digits
+double				8 byte			decimal	values upto 15 digits
+
+boolean				1 byte			true/false
+char				2 byte			single character
+
+----------------------------------------------------------------------------------------------------------------------
+Operators
+
+Operator is a symbol which perform an operation
+
+1) Arithmetic Operator					+ - * / %
+2) Relational Operator					> >= < <= != ==
+3) Logical Operator					&& || !
+4) Increment & Decrement Operator		++ --
+5) Assignment Operator					= += -= *= /= %=
+6) Conditional Operator				?:
+
+----------------------------------------------------------------------------------------------------------------------
+Conditional Statement
+1) if
+2) if-else
+3) nested if-else
+4)Switch case
+----------------------------------------------------------------------------------------------------------------------
+Looping statement
+
+Initilisation -->condition--> Incrementation
+1) while
+2) do- while

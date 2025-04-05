@@ -1,0 +1,58 @@
+	Introduction to Java
+	JDK Installation
+	Hello World
+	
+	2) Basic syntax
+		Variable and Data types
+		Basic Operators (Arithmetic,Logical, Relational)
+		Control Flow Statement (Is-else, Switch)
+		Loops (For, Do-while, While)
+		OOPs
+	
+	3)Classes and Objects
+		Introduction to classes
+		Constructors and Methods
+		The this keyword
+	
+	4)Advance OOPs concepts
+		inheritance
+		Polymorphism
+		Abstraction
+		Encapsulation
+		
+	5)Arrays and Strings
+		Arrays (Single and multi dimensional)
+		Strings class and Method
+		StringBuilder and StringBuffer
+		
+	6)Collection Framework
+		Introduction to collection
+		List (arrayList, LinkedList)
+		set (HashSet, TreeSet)
+		Map (HashMap, TreeMap)
+		
+	7)Exception handling
+		Types of Exception
+		Try-catch block
+		Throw, throws keyword and custom exception
+		
+	8)File I/O
+		File class
+		Reading from and Writing to files
+		BufferReader and BufferedWriter
+		Serialization and Deserilization
+	
+	9)Multithreading
+		Introduction to threading
+		creating and starting threads (Runnable and thread class)
+		Thread lifecycle and Synchronization
+		
+	10)Networking
+		Basic of Networking
+		Socket Programming
+		URL Class
+		
+	11)Lamda Expression
+	12)Java 8+ Feature
+	
+	 

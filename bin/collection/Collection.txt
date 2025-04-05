@@ -1,0 +1,12 @@
+Array is collection of data type of same type
+
+Array type 					class name
+int[]						[I
+int[][]						[[I
+double[]					[D
+double[][]					[[D
+short[]						[s
+byte[]						[B
+boolean[]					[Z
+
+if we enter a character a size of array it will convert it to ASSCI value and assign size
